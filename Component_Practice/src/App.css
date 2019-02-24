@@ -18,18 +18,22 @@ font-family: 'Work Sans', sans-serif;
 body {
   font-family: 'Work Sans', sans-serif;
 }
+
 h1 {
   font-family: 'Contrail One', cursive;
 }
+
 p {
   text-align: justify;
 }
+
 i {
   float: right;
   margin-right: 10%;
 }
 
-a.to-top, a.to-top:visited {
+a.to-top,
+a.to-top:visited {
   color: #F66464;
 }
 
@@ -40,7 +44,9 @@ nav {
   background-color: #1B2355;
 }
 
-nav h1, nav a, nav a:visited {
+nav h1,
+nav a,
+nav a:visited {
   color: #E8ECEF;
 }
 
@@ -101,10 +107,14 @@ HOME
   background-color: rgba(160, 204, 227, 0.5);
   color: #E8ECEF;
   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#1b2355+0,1b2355+100&0+0,0.7+16,1+52,0.7+85,0+100 */
-  background: -moz-linear-gradient(left, rgba(27,35,85,0) 0%, rgba(27,35,85,0.7) 16%, rgba(27,35,85,1) 52%, rgba(27,35,85,0.7) 85%, rgba(27,35,85,0) 100%); /* FF3.6-15 */
-  background: -webkit-linear-gradient(left, rgba(27,35,85,0) 0%,rgba(27,35,85,0.7) 16%,rgba(27,35,85,1) 52%,rgba(27,35,85,0.7) 85%,rgba(27,35,85,0) 100%); /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(to right, rgba(27,35,85,0) 0%,rgba(27,35,85,0.7) 16%,rgba(27,35,85,1) 52%,rgba(27,35,85,0.7) 85%,rgba(27,35,85,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#001b2355', endColorstr='#001b2355',GradientType=1 ); /* IE6-9 */
+  background: -moz-linear-gradient(left, rgba(27, 35, 85, 0) 0%, rgba(27, 35, 85, 0.7) 16%, rgba(27, 35, 85, 1) 52%, rgba(27, 35, 85, 0.7) 85%, rgba(27, 35, 85, 0) 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(left, rgba(27, 35, 85, 0) 0%, rgba(27, 35, 85, 0.7) 16%, rgba(27, 35, 85, 1) 52%, rgba(27, 35, 85, 0.7) 85%, rgba(27, 35, 85, 0) 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to right, rgba(27, 35, 85, 0) 0%, rgba(27, 35, 85, 0.7) 16%, rgba(27, 35, 85, 1) 52%, rgba(27, 35, 85, 0.7) 85%, rgba(27, 35, 85, 0) 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#001b2355', endColorstr='#001b2355', GradientType=1);
+  /* IE6-9 */
   padding: 10px 0;
 }
 
@@ -112,9 +122,11 @@ HOME
 MAIN (#about-me)
 ******************************************************/
 #about-me {
-  padding-top: 10px;  /* as opposed to margin-top which doesn't work*/
+  padding-top: 10px;
+  /* as opposed to margin-top which doesn't work*/
   text-align: center;
 }
+
 #about-me div {
   margin: 0 10%;
 }
@@ -128,9 +140,11 @@ PROJECTS
   box-sizing: border-box;
   border: 1px solid #000;
 }
+
 #projects header {
   padding: 0 10%;
 }
+
 #projects p {
   text-align: center;
 }
@@ -139,34 +153,48 @@ div.portfolio-img {
   height: 20vh;
   background-size: cover;
   background-position: center 15%;
+
+
 }
 
-section#projects > div {
+section#projects>div {
   padding: 10px 0 10px 0;
+  box-sizing: border-box;
+  border: 1px solid #000;
+
+
 }
 
-section#projects > div:nth-child(odd) {
+section#projects>div:nth-child(odd) {
   background-color: #E8ECEF
 }
 
-section#projects > div:nth-child(even) {
+section#projects>div:nth-child(even) {
   background-color: #BAC0BA
 }
 
 div.iron-man {
   background-image: url(./images/IronMan.jpg);
+
+
 }
 
 .phoenix {
   background-image: url(./images/Phoenix.jpg);
+
+
 }
 
 .storm {
   background-image: url(./images/Storm.jpg);
+
+
 }
 
 .gambit {
   background-image: url(./images/Gambit.jpg);
+
+
 }
 
 /******************************************************
@@ -185,26 +213,30 @@ RESUME
   padding: 0 10%;
   text-align: center;
 }
-*:before, *:after { content: ''; }
+
+*:before,
+*:after {
+  content: '';
+}
 
 .accessory {
   height: 6px;
-  background-image: radial-gradient(
-    closest-side,
+  background-image: radial-gradient(closest-side,
     hsla(0, 0%, 50%, 1.0),
     hsla(0, 0%, 50%, 0) 100%);
   position: relative;
 }
+
 .accessory:after {
   position: absolute;
-  top:  50%;
+  top: 50%;
   left: 50%;
-  display:block;
+  display: block;
   background-color: hsl(0, 0%, 75%);
   height: 12px;
-  width:  12px;
+  width: 12px;
   transform: rotate(45deg);
-  margin-top:  -10px;
+  margin-top: -10px;
   margin-left: -10px;
   border-radius: 4px 0;
   border: 4px solid hsla(0, 0%, 100%, 0.35);
@@ -229,19 +261,22 @@ CONTACT AND MEDIA
   margin-left: 10%;
 }
 
-#contact input, #contact textarea {
+#contact input,
+#contact textarea {
   width: 95%;
   border-radius: 5px;
   border-color: #1B2355;
   border-width: 1px;
 }
 
-#contact input:focus, #contact textarea:focus {
+#contact input:focus,
+#contact textarea:focus {
   outline: 3px solid rgba(27, 35, 85, 0.5);
   -moz-outline-radius: 25px;
 }
 
-#contact label, #contact input {
+#contact label,
+#contact input {
   display: block;
 }
 
@@ -274,15 +309,15 @@ aside#social a {
 
 
 /******************************************************/
-                 /*MEDIA QUERIES*/
+/*MEDIA QUERIES*/
 /******************************************************
 NAVIGATION
 ******************************************************/
-@media only screen and (min-width: 769px) {
+/* @media only screen and (min-width: 769px) {
   body {
     background-color: red;
   }
-}
+} */
 
 /******************************************************
 MAIN
